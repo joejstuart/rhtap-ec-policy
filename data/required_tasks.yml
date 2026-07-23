@@ -11,7 +11,7 @@ pipeline-required-tasks:
         - fbc-target-index-pruning-check
         - [git-clone, git-clone-oci-ta]
         - init
-  docker:
+  docker2:
     - effective_on: "2025-04-01T00:00:00Z"
       tasks:
         - [buildah, buildah-remote, buildah-oci-ta, buildah-remote-oci-ta]
